@@ -1,5 +1,7 @@
 # Instagram Bot
 
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 A Bot who acts like a real IG user. Gives likes, follow & unfollow. All actions are parametizable and timing between actions is configurable. It use firebase to save followed users and, after a few days, unfollows them.
 
 ## Getting Started
