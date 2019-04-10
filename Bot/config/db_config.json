@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "cursoexpofirebase-19398",
-  "private_key_id": "d3acf59d16ebf9343fd2820f6bec714eacf5a8e0",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEcjGxpQ5lKqwr\nOPPPSmkBb71CfiwbFHUd/BGc54UwDaCiFRDhxnn98Ki0yEQFzlGmDJ/lKyBFyF96\n+Cf9YVmCY23JWZhn7FWIZyTtVLblupDmAb1QnvaHekJPAI9US72Wx88oq2PK0WY2\neMjGIol687uz0G52oNVMUKZ0/7wxJJstWJm7qEDoYsx1YybqnX3o4nirWAy61qsX\nJo0aCfzUgUwU3GY+Y2vK4POmbAJd2v7yVW8XnfxNkpMMoHXrkpzmOnlVEyXg7myT\nRJA6wTrYPT/94P9xH0IwkTlJeh0NFSFYoP2PfnE9mTupAt456nfTZrwFyjq8wf66\nN9dsfBiXAgMBAAECggEAB3D17e89KNrhc6+wGJmOebX0WtjxrcLsHssmFaX1dxkF\nDS60GYFNrK9ZjKOLZBbpI9uVkPY9vjb1WvCcfy4ZWGWQypBAxCsBIG4byXusg+45\nv+Sv+aZT21Tnvxtb0osd7uC5uaYoXQ3qi8Sugkbbo1MpOIn8LTUxbzcc3xCy3b+e\nl9FwDrFguTlZXNkmA1tRp37zW1Z3KVDfMy5sqDoDqzziLo7u+tPwCxIm/qOlYaeq\ntrODz2O6+OZPxGnMgUweWwBjLGPePa814nZoDTPRHWbba1XkS1OcldvffcuszAnh\ntAy8YSw9CET331OaaU6shvEchKTCA8FgXBRFnj7IaQKBgQD/8NecXVzg77i01aQV\nLuumFwmPkU6GYJ5xTgc+whrSTVLI53gonYBjXQhsockQ8VLgfD0WBueSFMFYXDi3\nCBcuY3j7u/6FhmYT/v94rFBm/wVNQ+iAAFLZD6bGUnJugT4SC+i3xhrVdaPW1Qpc\npo36FXwtrpnuSVSRtAMoidW9eQKBgQDEfdQRNLEClYFZpzi3PkOn/YIzRKUVj0W7\nqYCrcms7hGRZrUAyGnncpylRDiknbcOiQ7+B3B3B3LNBUTeLa76z83FmAYnp+iuU\nrm7NqItMEOhA33mXznFc9patkoVGUdDLww70LNaERLxnh8QltArIwEYUrpuHb2q7\nm5Bw9XrSjwKBgQDwnM9WpT8oCLYw65hygcXwQ0AtxIF6O2M5Sg3tpjXo9+CYF2QT\nat7EizXcSszoLLepa6NSDfOuleye0TRQfj6s0b9vifFiPlPBAL3UCMsdySqG1QzD\nKYq5nclAMUp7MO3VsXR7MLcRbqM02NwA9mQLdB9mIvt71Vy4De/aMJrMoQKBgDXx\ndW7j0FStRr2eMuvbpCdSaZQ5nDi3BKXoevKWjungBsy3y4/1xM7W9XjTMmkosTSy\n9Lhp/aFjPbMI4P7drZUpmFAwy/P4Qk6nNLQxOUzAt4JX18HdYzHqYKN2PjB39aJ7\nAnf2d04IsNCbbTYMn4lNf+/dn8UmyV6H7reULQvxAoGADy3j+XUnoMupO0/mfcQ5\nAZc/A4G691/Dq9fJziyTFlzr5iJBrY5q1JpJqWDhAqvmfMkKvcf60PqZmHOVFArP\nlW/rI8Jc8mFKGo8tml6tFhCbJFzf/ICzjIr8rjaPzcpZZ/MxJOdKhCa1YMlG9rhl\nOkg7vILBkREXOcyW7GyzCaA=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-0ic9p@cursoexpofirebase-19398.iam.gserviceaccount.com",
-  "client_id": "103540115745455846365",
+  "project_id": "project_id",
+  "private_key_id": "private_key_id",
+  "private_key": "private_key",
+  "client_email": "client_email",
+  "client_id": "client_id",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-0ic9p%40cursoexpofirebase-19398.iam.gserviceaccount.com"
+  "client_x509_cert_url": "meta_data_client"
 }
