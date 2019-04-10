@@ -1,7 +1,7 @@
 {
     "base_url": "https://www.instagram.com",
-    "username": "hamburguesasda2",
-    "password": "TyP131017",
+    "username": "your_user",
+    "password": "your_password",
     "hashTags": ["hamburguesas","aperitivos","hamburgueseria"],
     "settings": {
       "run_every_x_hours": 3,
