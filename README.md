@@ -1,4 +1,4 @@
-# INSTAGRAM BOT
+# Instagram Bot
 
 Un bot que, pasandole un usuario de instagram, se encarga de; dar likes, sacar likes, seguir personas, dejar de seguirlas cada determinado tiempo, revisar hashtags a gusto y comenzar a likear post de estos mismos (como tambien seguirlos y dejar de hacerlo). Todo cada un tiempo programado para que instagram no se de cuenta que es un bot. Todo parametizable.
 
