@@ -44,6 +44,7 @@ In ```/Bot/config/puppeteer.json``` you can set all the configuration for your a
 
 ## Installing
 
+* set up your ```firebase``` project and replace config files
 * run ```npm install```
 
 ## Built With
