@@ -5,7 +5,7 @@ const config = require("./config/db_config");
 
 firebase.initializeApp({
     credential: firebase.credential.cert(config),
-    databaseURL: "https://cursoexpofirebase-19398.firebaseio.com"
+    databaseURL: "your_firebase_db_url"
 });
 let database = firebase.database();
 
