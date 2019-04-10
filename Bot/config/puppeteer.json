@@ -2,7 +2,7 @@
     "base_url": "https://www.instagram.com",
     "username": "your_user",
     "password": "your_password",
-    "hashTags": ["hamburguesas","aperitivos","hamburgueseria"],
+    "hashTags": ["hashtag1","hashtag2","hashtag3", "hastag...."],
     "settings": {
       "run_every_x_hours": 3,
       "like_ratio": 0.75,
