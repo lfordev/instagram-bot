@@ -44,7 +44,7 @@ In ```/Bot/config/puppeteer.json``` you can set all the configuration for your a
 
 ## Installing
 
-Just clone repo and run ```npm install```
+* run ```npm install```
 
 ## Built With
 
