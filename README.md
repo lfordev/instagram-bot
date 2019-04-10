@@ -1,47 +1,55 @@
 # Instagram Bot
 
-Un bot que, pasandole un usuario de instagram, se encarga de; dar likes, sacar likes, seguir personas, dejar de seguirlas cada determinado tiempo, revisar hashtags a gusto y comenzar a likear post de estos mismos (como tambien seguirlos y dejar de hacerlo). Todo cada un tiempo programado para que instagram no se de cuenta que es un bot. Todo parametizable.
+A Bot who acts like a real IG user. Gives likes, follow & unfollow. All actions are parametizable and timing between actions is configurable. It use firebase to save followed users and, after a few days, unfollows them.
 
-**Getting Started**
+## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+In ```/Bot/config/puppeteer.json``` you can set all the configuration for your account
+```
+{
+    "base_url": "https://www.instagram.com",
+    "username": "your_user",
+    "password": "your_password",
+    "hashTags": ["hashtag1","hashtag2","hashtag3"],
+    "settings": {
+      "run_every_x_hours": 3,
+      "like_ratio": 0.75,
+      "unfollow_after_days": 2,
+      "headless": false
+    },
+    "selectors": {
+      "home_to_login_button": ".izU2O a",
+      "username_field": "input[type=\"text\"]",
+      "password_field": "input[type=\"password\"]",
+      "login_button": "button[type=\"submit\"]",
+      "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
+      "post_username": "div.e1e1d > h2.BrX75 > a",
+      "post_follow_link": ".bY2yH > button",
+      "post_like_button": "span.fr66n > button",
+      "post_follow_button": "span.oW_lN._1OSdk > button",
+      "post_close_button": "button.ckWGn",
+      "user_unfollow_button": "span.vBF20 > button._5f5mN",
+      "user_unfollow_confirm_button": "div.mt3GC > button.aOOlW.-Cab_",
+      "not_now_button": ".HoLwm",
+      "hash_tags_base_class": ".EZdmt"
+    }
+  }
+```
+## Prerequisites
 
-**Prerequisites**
-
-What things you need to install the software and how to install them
+* Node JS
 
 
-**Installing**
+## Installing
 
-A step by step series of examples that tell you how to get a development env running
+Just clone repo and run ```npm install```
 
-Say what the step will be
+## Built With
 
-Give the example
-And repeat
+* Firebase
+* Puppeteer
 
-until finished
-End with an example of getting some data out of the system or using it for a little demo
-
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-**Built With**
-
-Dropwizard - The web framework used
-
-**License**
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
